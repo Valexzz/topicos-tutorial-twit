@@ -1,0 +1,15 @@
+site_name: Guia para Tópicos I
+theme:
+  name: material
+
+nav:
+  - Início: index.md
+  - Sessão 1: 
+    - Sessão 1-1: sessao-1/sessao-1-1.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
