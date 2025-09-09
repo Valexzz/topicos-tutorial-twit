@@ -1,22 +1,17 @@
-# Sessão 01 - Primeiros Passos e estruturação
+# Sessão 1-1 - Primeiros Passos em Git e fluxo básico
 
 ## O que será aprendido?
 
 - Comandos básicos do git:
-    - git clone
     - git config 
     - git init
     - git status
     - git add
+    - git rm
     - git commit
     - git push
     - git branch
-    - git checkout
-    - git fetch
-    - git merge
 - Funcionamento dos repositórios locais e remotos
-- Melhores práticas de commits, branching e merge
-- Pequena introdução aos gerenciadores de pacotes e .gitignore
 
 ## Pré-requisitos
 - Git instalado
@@ -139,6 +134,12 @@ Untracked files:
 
 `Untracked files` são arquivos que o índice nem sabe que existem. São arquivos novos.
 
+O git fala que para removermos algo do índice, basta executar:
+
+``` bash
+git rm --cached <arquivo(s) ou diretórios separados por espaço>
+```
+
 ## Adicionando ao repositório (finalmente!)
 
 Após adicionarmos ao índice, podemos realizar o famoso commit para adicionarmos mudanças ao repositório.
@@ -259,6 +260,8 @@ Então temos que falar qual é essa entrada principal e executar o comando que e
 git push --set-upstream origin <geralmente main ou master>
 ```
 
+No comando de falha do push, você viu que é possível fazer esse comando "automaticamente", só ajustar a opção que o git fala com o `git config --global`. 
+
 ![alt text](image-2.png)
 
 Nosso repositório também tem essa "entrada principal", é uma ideia configurar ele pra ser o mesmo nome da nossa entrada. Você pode ver o nome dela agora com o comando a seguir:
@@ -280,5 +283,18 @@ Agora, tente dar o push novamente, ele irá pedir senha, não insira sua senha, 
 
 Sucesso! Agora temos um repositório remoto como origem do nosso local e podemos "lançar" as mudanças para ele para que nossos colegas possam acessá-las.
 
+## Considerações Finais
 
+Se você seguiu tudo nessa sessão, agora você sabe:
+
+- Como iniciar um repositório local 
+- O que é o índice de Git e como mexer com as mudanças feitas para ele
+- Como enviar as mudanças do índice para o seu repositório local
+- Como criar um repositório remoto
+- Como configurar variáveis do git
+- Como gerar um token de autorização para modificar repositório
+- Como enviar as mudanças do seu repositório local para o repositório remoto
+- A diferença entre sua pasta, a área de índice, o seu repositório local e o repositório remoto no GitHub 
+
+Parabéns! Na próxima sessão, iremos trabalhar com o repositório do quarkus sobre a rede social, iremos criar outro a partir dele.
 

@@ -5,6 +5,7 @@ theme:
 nav:
   - Início: index.md
   - Sessão 1: 
+    - Sessão 1: sessao-1/sessao-1.md
     - Sessão 1-1: sessao-1/sessao-1-1.md
     - Sessão 1-2: sessao-1/sessao-1-2.md
 
