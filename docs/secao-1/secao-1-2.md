@@ -1,4 +1,4 @@
-# Sessão 1-2 - Conceitos colaborativos do Git
+# Seção 1-2 - Conceitos colaborativos do Git
 
 ## O que será aprendido?
 
@@ -78,7 +78,7 @@ Agora, repita o processo de clone anteriomente, dessa vez considerando o reposit
 
 ## Teoria: Usos da Branches
 
-Caso não goste muito da parte teórica e já conheça os usos da branches, pule essa sessão para a parte prática.
+Caso não goste muito da parte teórica e já conheça os usos da branches, pule essa seção para a parte prática.
 
 Até agora, chamamos a branch main/master de "entrada principal". Entretanto, vamos mudar para o termo real, que faz tanto sentido quanto: branch; um galho, ramificação! Pense agora realmente como uma árvore, onde a branch main é o tronco.
 
@@ -286,7 +286,7 @@ Esse é o mesmo procedimento tanto para o time do amigo da SpaceX quanto para o 
 
 ## Relembrando boas práticas
 
-Vamos reforçar as boas práticas que foram mostradas ao longo dessa sessão:
+Vamos reforçar as boas práticas que foram mostradas ao longo dessa seção:
 
 ### Crie branches para adicionar novas funcionalidades
 
@@ -392,7 +392,7 @@ Como foi ensinado a teoria, vai ser questão de poucas horas ou até minutos par
 
 ## Considerações Finais
 
-Se você seguiu tudo nessa sessão, agora você sabe:
+Se você seguiu tudo nessa seção, agora você sabe:
 
 - Como clonar um repositório Git
 - O que é fork e como dar fork de um repositório do GitHub
@@ -404,4 +404,4 @@ Se você seguiu tudo nessa sessão, agora você sabe:
 - Como atualizar o repositório remoto ou local com o fetch e o pull
 - Como dar Pull Requests
 
-Parabéns! Na próxima sessão, iremos trabalhar com o repositório do quarkus sobre a rede social, iremos criar outro a partir dele.
+Parabéns! Na próxima seção, iremos trabalhar com o repositório do quarkus sobre a rede social, iremos criar outro a partir dele.

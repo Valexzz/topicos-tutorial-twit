@@ -4,10 +4,10 @@ theme:
 
 nav:
   - Início: index.md
-  - Sessão 1: 
-    - Sessão 1: sessao-1/sessao-1.md
-    - Sessão 1-1: sessao-1/sessao-1-1.md
-    - Sessão 1-2: sessao-1/sessao-1-2.md
+  - Seção 1: 
+    - Seção 1: secao-1/secao-1.md
+    - Seção 1-1: secao-1/secao-1-1.md
+    - Seção 1-2: secao-1/secao-1-2.md
 
 markdown_extensions:
   - admonition

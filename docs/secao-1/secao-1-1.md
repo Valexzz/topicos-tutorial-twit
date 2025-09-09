@@ -1,4 +1,4 @@
-# Sessão 1-1 - Primeiros Passos em Git e fluxo básico
+# Seção 1-1 - Primeiros Passos em Git e fluxo básico
 
 ## O que será aprendido?
 
@@ -285,7 +285,7 @@ Sucesso! Agora temos um repositório remoto como origem do nosso local e podemos
 
 ## Considerações Finais
 
-Se você seguiu tudo nessa sessão, agora você sabe:
+Se você seguiu tudo nessa seção, agora você sabe:
 
 - Como iniciar um repositório local 
 - O que é o índice de Git e como mexer com as mudanças feitas para ele
@@ -296,5 +296,5 @@ Se você seguiu tudo nessa sessão, agora você sabe:
 - Como enviar as mudanças do seu repositório local para o repositório remoto
 - A diferença entre sua pasta, a área de índice, o seu repositório local e o repositório remoto no GitHub 
 
-Parabéns! Na próxima sessão, iremos trabalhar com o repositório do quarkus sobre a rede social, iremos criar outro a partir dele.
+Parabéns! Na próxima seção, iremos trabalhar com o repositório do quarkus sobre a rede social, iremos criar outro a partir dele.
 

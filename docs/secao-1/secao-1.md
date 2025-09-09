@@ -1,4 +1,4 @@
-# Sessão 1 - Uso do Git
+# Seção 1 - Uso do Git
 
 
 ## O que será aprendido?
